@@ -20,4 +20,5 @@ public abstract class Animal {
     }
 
     public abstract void speak();
+    //일단 주석만 변경
 }
