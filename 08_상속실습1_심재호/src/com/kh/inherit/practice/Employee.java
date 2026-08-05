@@ -34,7 +34,7 @@ public class Employee extends Person{
     @Override
     public String information(){
         String parent = super.information();
-        String str = parent + " ,급여: %d, 부서: %s".formatted(salary, dept);
+        String str = parent + " , 급여: %d, 부서: %s".formatted(salary, dept);
         return str;
     }
 }

@@ -19,7 +19,7 @@ public class Application {
         Scanner sc = new Scanner(System.in);
         int index = 0;
         int keepGoing = 0;
-        
+
         while (true) {
             if (keepGoing == 0){
                 System.out.print("이름: ");
@@ -43,6 +43,7 @@ public class Application {
                 System.out.println("계속하시려면 Y(y)를, 중단하시려면 N(n)을 입력해주세요.");
                 String choice = sc.next();
                 if(choice.charAt(0) == 'y' || choice.charAt(0) == 'Y'){
+                    //choice.equalsIgnoreCase() 쓰면 대소문자 나눌 필요 X
                     System.out.println("Y(y)를 입력하셨습니다. 입력을 계속합니다.");
                     keepGoing = 0;
                     continue;

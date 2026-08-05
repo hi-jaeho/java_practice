@@ -7,9 +7,9 @@ public class Person {
     private double weight;
 
     public Person() {
-
+        
     }
-
+    
     public Person(int age, double height, double weight){
         this.age = age;
         this.height = height;

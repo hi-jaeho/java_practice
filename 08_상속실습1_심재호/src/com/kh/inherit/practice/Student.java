@@ -34,7 +34,7 @@ public class Student extends Person{
     @Override
     public String information(){
         String parent = super.information();
-        String str = parent + " ,학년: %d, 전공: %s".formatted(grade, major);
+        String str = parent + " , 학년: %d, 전공: %s".formatted(grade, major);
         return str;
     }
 }
