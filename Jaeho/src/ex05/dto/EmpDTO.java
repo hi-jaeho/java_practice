@@ -1,5 +1,7 @@
 package ex05.dto;
-
+// XXXDTO
+// Data Transfer Object
+// 데이터를 계층 간에 전달하기 위해 순수하게 데이터를 담아두는 객체
 public class EmpDTO {
     String empId;
     String empName;

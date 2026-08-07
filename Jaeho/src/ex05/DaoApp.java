@@ -11,7 +11,7 @@ public class DaoApp {
                 // System.out.println(list);
 
                 for(EmpDTO emp: list){
-                    System.out.println(emp);
-                }
+                        System.out.println(emp);
+                } 
         }
 }
